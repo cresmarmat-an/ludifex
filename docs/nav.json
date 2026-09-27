@@ -1,0 +1,238 @@
+[
+  {
+    "folder": "getting-started",
+    "title": "Getting started",
+    "pages": [
+      {
+        "file": "introduction",
+        "title": "Introduction"
+      },
+      {
+        "file": "installation",
+        "title": "Installation"
+      },
+      {
+        "file": "finding-files",
+        "title": "Finding files"
+      },
+      {
+        "file": "units-and-conventions",
+        "title": "Units and conventions"
+      }
+    ]
+  },
+  {
+    "folder": "worlds",
+    "title": "Worlds",
+    "pages": [
+      {
+        "file": "creating-a-world",
+        "title": "Creating a world"
+      },
+      {
+        "file": "adding-actors",
+        "title": "Adding actors"
+      },
+      {
+        "file": "working-with-actors",
+        "title": "Working with actors"
+      },
+      {
+        "file": "stepping",
+        "title": "Stepping the simulation"
+      },
+      {
+        "file": "transform-hierarchy",
+        "title": "The transform hierarchy"
+      },
+      {
+        "file": "saving-and-restoring",
+        "title": "Saving and restoring"
+      },
+      {
+        "file": "2d-worlds",
+        "title": "2D worlds"
+      },
+      {
+        "file": "mutability-contract",
+        "title": "The mutability contract"
+      },
+      {
+        "file": "stability-contract",
+        "title": "The stability contract"
+      }
+    ]
+  },
+  {
+    "folder": "physics",
+    "title": "Physics",
+    "pages": [
+      {
+        "file": "joints",
+        "title": "Joints"
+      },
+      {
+        "file": "collision-events",
+        "title": "Collision events"
+      },
+      {
+        "file": "sensors-and-triggers",
+        "title": "Sensors and triggers"
+      },
+      {
+        "file": "queries",
+        "title": "Queries"
+      },
+      {
+        "file": "characters",
+        "title": "Characters"
+      }
+    ]
+  },
+  {
+    "folder": "rendering",
+    "title": "Rendering",
+    "pages": [
+      {
+        "file": "overview",
+        "title": "Rendering a world"
+      },
+      {
+        "file": "graphics-backends",
+        "title": "Graphics backends"
+      },
+      {
+        "file": "light-shadow-and-fog",
+        "title": "Light, shadow, and fog"
+      },
+      {
+        "file": "surfaces-and-textures",
+        "title": "Surfaces and textures"
+      },
+      {
+        "file": "graphics-quality",
+        "title": "Graphics quality"
+      },
+      {
+        "file": "anti-aliasing",
+        "title": "Anti-aliasing"
+      },
+      {
+        "file": "level-of-detail",
+        "title": "Level of detail"
+      },
+      {
+        "file": "sky",
+        "title": "The sky"
+      },
+      {
+        "file": "ambient-occlusion",
+        "title": "Ambient occlusion"
+      },
+      {
+        "file": "bloom-exposure-grading",
+        "title": "Bloom, exposure, and grading"
+      },
+      {
+        "file": "ray-tracing",
+        "title": "Ray tracing"
+      },
+      {
+        "file": "path-tracing",
+        "title": "Path tracing"
+      },
+      {
+        "file": "backgrounds-and-post-processing",
+        "title": "Backgrounds and post-processing"
+      },
+      {
+        "file": "debug-drawing",
+        "title": "Debug drawing"
+      },
+      {
+        "file": "custom-shaders",
+        "title": "Custom shaders"
+      }
+    ]
+  },
+  {
+    "folder": "assets",
+    "title": "Assets",
+    "pages": [
+      {
+        "file": "model-formats",
+        "title": "Model formats"
+      },
+      {
+        "file": "loading-without-stopping",
+        "title": "Loading without stopping"
+      },
+      {
+        "file": "reloading-while-it-runs",
+        "title": "Reloading while it runs"
+      }
+    ]
+  },
+  {
+    "folder": "animation",
+    "title": "Animation",
+    "pages": [
+      {
+        "file": "animation",
+        "title": "Animation"
+      }
+    ]
+  },
+  {
+    "folder": "sound",
+    "title": "Sound",
+    "pages": [
+      {
+        "file": "sound",
+        "title": "Sound"
+      }
+    ]
+  },
+  {
+    "folder": "tools",
+    "title": "Measuring and debugging",
+    "pages": [
+      {
+        "file": "measuring-a-frame",
+        "title": "Measuring a frame"
+      },
+      {
+        "file": "diagnostics-and-validation",
+        "title": "Diagnostics and validation"
+      },
+      {
+        "file": "native-access",
+        "title": "Native access"
+      }
+    ]
+  },
+  {
+    "folder": "reference",
+    "title": "Reference",
+    "pages": [
+      {
+        "file": "status",
+        "title": "Capabilities and limitations"
+      },
+      {
+        "file": "license",
+        "title": "License"
+      },
+      {
+        "file": "changelog",
+        "title": "Changelog",
+        "library": "CHANGELOG.md"
+      },
+      {
+        "file": "third-party-notices",
+        "title": "Third-party notices",
+        "library": "THIRD_PARTY_NOTICES.md"
+      }
+    ]
+  }
+]

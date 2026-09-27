@@ -1,0 +1,31 @@
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>{{page_title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="author" content="{{author}}" />
+  <link rel="canonical" href="{{canonical}}" />
+  <meta name="theme-color" content="#E0E5EC" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#22262F" media="(prefers-color-scheme: dark)" />
+  <meta name="color-scheme" content="light dark" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="{{name}} documentation" />
+  <meta property="og:url" content="{{canonical}}" />
+  <meta property="og:title" content="{{page_title}}" />
+  <meta property="og:description" content="{{description}}" />
+  <meta property="og:image" content="{{site_url}}assets/img/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{assets}}img/icon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="{{assets}}img/icon-192.png" />
+  <link rel="apple-touch-icon" href="{{assets}}img/icon-180.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="{{assets}}css/docs.css?v={{asset_version}}" />
+  <link rel="stylesheet" href="{{assets}}css/accent.css?v={{asset_version}}" />
+  <script>
+    // apply the saved theme before first paint so there's no flash
+    document.documentElement.classList.add("js");
+    try { document.documentElement.dataset.theme = localStorage.getItem("cm-theme") || "auto"; } catch (e) {}
+  </script>

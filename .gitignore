@@ -1,0 +1,8 @@
+build/
+build-*/
+out/
+.vs/
+*.user
+*.pdb
+*.ilk
+_site/

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="auto" data-root="{{root}}" data-search="{{search_url}}">
+<head>
+{{> head}}
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="progress" aria-hidden="true"></div>
+
+{{> header}}
+
+  <div class="container-wide docs">
+    <aside class="sidebar" id="sidebar" aria-label="Documentation">
+      <div class="side-head">
+        <a class="brand" href="{{root}}">
+          <img class="brand-logo" src="{{assets}}img/icon-96.png" alt="" width="36" height="36" />
+          <span>{{name}}</span>
+        </a>
+        <button class="icon-btn icon-sm" id="sidebar-close" type="button" aria-label="Close the menu">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+      </div>
+      <nav aria-label="Pages">
+{{sidebar}}
+      </nav>
+      <div class="side-extra">
+        <a href="{{examples}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>Examples</a>
+        <a href="{{repository}}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg>{{name}} on GitHub</a>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" aria-hidden="true"></div>
+
+    <main id="main" class="doc">
+      <header class="doc-head">
+        <p class="crumb">{{category}}</p>
+        <h1>{{title}}</h1>
+      </header>
+      <article class="prose">
+{{content}}
+      </article>
+      <div class="doc-foot">
+        <span>{{name}} {{version}}</span>
+        <a href="{{edit_url}}">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z"/><path d="m15 5 4 4"/></svg>
+          {{edit_label}}
+        </a>
+      </div>
+      <nav class="pager" aria-label="Previous and next page">{{pager}}</nav>
+    </main>
+
+    <aside class="toc" aria-label="On this page">
+{{toc}}
+    </aside>
+  </div>
+
+{{> footer}}
+{{> search}}
+
+  <script src="{{assets}}js/docs.js?v={{asset_version}}" defer></script>
+</body>
+</html>

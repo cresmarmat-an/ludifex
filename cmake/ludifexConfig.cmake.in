@@ -1,0 +1,18 @@
+# The package find_package(ludifex) reads.
+
+@PACKAGE_INIT@
+
+include(CMakeFindDependencyMacro)
+find_dependency(SDL3 CONFIG)
+find_dependency(box2d CONFIG)
+find_dependency(box3d CONFIG)
+if(@LUDIFEX_ASSIMP@)
+    find_dependency(assimp CONFIG)
+endif()
+
+include("${CMAKE_CURRENT_LIST_DIR}/ludifexTargets.cmake")
+
+# ludifex_add_material, for compiling material shaders when your program builds.
+include("${CMAKE_CURRENT_LIST_DIR}/CompileShaders.cmake")
+
+check_required_components(ludifex)

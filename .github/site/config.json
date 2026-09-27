@@ -1,0 +1,89 @@
+{
+  "name": "ludifex",
+  "version": "0.0.1",
+  "site_url": "https://cresmarmat-an.github.io/ludifex/",
+  "repository": "https://github.com/cresmarmat-an/ludifex",
+  "examples": "https://github.com/cresmarmat-an/ludifex-examples",
+  "author": "Cresmar Mat-an",
+  "author_url": "https://cresmarmat-an.github.io/",
+  "description": "ludifex is a 2D and 3D world library for C++20: physics over Box2D v3 and Box3D, a physically based renderer with optional compute-shader ray and path tracing, animation, and sound.",
+  "tagline": "2D and 3D world library for C++20.",
+  "lead": "Simulate worlds with Box2D and Box3D and render them with physically based shading, cascaded shadows, and optional ray and path tracing in compute shaders. Worlds can also step without a window, in a test or on a server.",
+  "accent": {
+    "light": {
+      "accent": "#4E39FC",
+      "accent-ink": "#3A25D8",
+      "accent-soft": "rgba(78,57,252,.12)",
+      "accent-glow": "rgba(78,57,252,.32)",
+      "grad-2": "#A855F7",
+      "grad-3": "#161F34"
+    },
+    "dark": {
+      "accent": "#8B7CFD",
+      "accent-ink": "#ADA3FE",
+      "accent-soft": "rgba(139,124,253,.16)",
+      "accent-glow": "rgba(139,124,253,.28)",
+      "grad-2": "#C084FC",
+      "grad-3": "#C7D2FE"
+    }
+  },
+  "example_page": "getting-started/introduction",
+  "install_page": "getting-started/installation",
+  "example_title": "A crate falling in a world",
+  "example_text": "Worlds step without a window or a device: add a ground and a box, step three seconds, and read where the box came to rest.",
+  "features_title": "What ludifex does",
+  "features": [
+    {
+      "icon": "<path d=\"M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z\"/><path d=\"m3.3 7 8.7 5 8.7-5\"/><path d=\"M12 22V12\"/>",
+      "title": "Worlds and actors",
+      "text": "2D and 3D worlds, handle-based actors, fixed-step simulation with smooth interpolation, a transform hierarchy, and saving a world to bytes.",
+      "page": "worlds/creating-a-world"
+    },
+    {
+      "icon": "<circle cx=\"12\" cy=\"12\" r=\"1\"/><path d=\"M20.2 20.2c2.04-2.03.02-7.36-4.5-11.9-4.54-4.52-9.87-6.54-11.9-4.5-2.04 2.03-.02 7.36 4.5 11.9 4.54 4.52 9.87 6.54 11.9 4.5Z\"/><path d=\"M15.7 15.7c4.52-4.54 6.54-9.87 4.5-11.9-2.03-2.04-7.36-.02-11.9 4.5-4.52 4.54-6.54 9.87-4.5 11.9 2.03 2.04 7.36.02 11.9-4.5Z\"/>",
+      "title": "Physics",
+      "text": "Collision events, sensors, collision layers, ray and shape casts, a character controller that handles steps and slopes, and joints with limits and motors.",
+      "page": "physics/collision-events"
+    },
+    {
+      "icon": "<circle cx=\"12\" cy=\"12\" r=\"4\"/><path d=\"M12 2v2\"/><path d=\"M12 20v2\"/><path d=\"m4.93 4.93 1.41 1.41\"/><path d=\"m17.66 17.66 1.41 1.41\"/><path d=\"M2 12h2\"/><path d=\"M20 12h2\"/><path d=\"m6.34 17.66-1.41 1.41\"/><path d=\"m19.07 4.93-1.41 1.41\"/>",
+      "title": "Physically based rendering",
+      "text": "Metallic-roughness shading, cascaded shadows, 256 clustered lights, a procedural sky, ambient occlusion, bloom, and quality presets from Potato to Extreme.",
+      "page": "rendering/overview"
+    },
+    {
+      "icon": "<path d=\"M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z\"/>",
+      "title": "Ray and path tracing",
+      "text": "Traced shadows, ambient occlusion, and reflections, and a progressive path tracer, all in compute shaders, so no ray-tracing hardware is needed.",
+      "page": "rendering/ray-tracing"
+    },
+    {
+      "icon": "<circle cx=\"12\" cy=\"5\" r=\"1\"/><path d=\"m9 20 3-6 3 6\"/><path d=\"m6 8 6 2 6-2\"/><path d=\"M12 10v4\"/>",
+      "title": "Models and animation",
+      "text": "glTF, FBX, OBJ, and the other formats Assimp reads, with skeletal animation, morph targets, and crossfading between clips.",
+      "page": "animation/animation"
+    },
+    {
+      "icon": "<polygon points=\"11 5 6 9 2 9 2 15 6 15 11 19 11 5\"/><path d=\"M15.54 8.46a5 5 0 0 1 0 7.07\"/><path d=\"M19.07 4.93a10 10 0 0 1 0 14.14\"/>",
+      "title": "Sound in the world",
+      "text": "Positional sound on actors, distance falloff, Doppler shift, occlusion, a voice limit with priorities, and streamed music.",
+      "page": "sound/sound"
+    }
+  ],
+  "sibling": {
+    "name": "opane",
+    "url": "https://cresmarmat-an.github.io/opane/",
+    "icon": "sibling.png",
+    "text": "opane gives a world its window, its interface, and its input. ludifex renders into it, full-window or inside a viewport in your layout, and the two share one device and one audio mix."
+  },
+  "example_repos": [
+    {
+      "name": "ludifex-examples",
+      "url": "https://github.com/cresmarmat-an/ludifex-examples"
+    },
+    {
+      "name": "opane-ludifex-examples",
+      "url": "https://github.com/cresmarmat-an/opane-ludifex-examples"
+    }
+  ]
+}
